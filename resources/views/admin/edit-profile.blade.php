@@ -29,7 +29,7 @@
         </span>
     </div>
 @endif
-      <form action="{{route('edit-profile')}}" method="post">
+      <form action="{{route('profile.update')}}" method="post">
         @csrf
         @method('PUT')
         <div class="space-y-12">
